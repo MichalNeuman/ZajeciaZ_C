@@ -17,11 +17,11 @@ int sum_of_multiples(int number) {
 
 int main() {
     int number;
-    printf("Podaj liczbê: ");
+    printf("Podaj liczbÃª: ");
     scanf("%d", &number);
 
     int result = sum_of_multiples(number);
-    printf("Suma wielokrotnoœci 3 lub 5 poni¿ej %d wynosi: %d\n", number, result);
+    printf("Suma wielokrotnoÅ“ci 3 lub 5 poniÂ¿ej %d wynosi: %d\n", number, result);
 
     return 0;
 }
