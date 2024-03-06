@@ -1,26 +1,15 @@
-﻿// zad2.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
-
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-
 int main() {
-   
-    int x = 3;
-    printf("%f/n", x);
+    int zmienna = 10;
 
-    funkcja(&x)
-
-        printf("%f/n", x);
+    int *wskaznik = &zmienna;
 
 
+    *wskaznik = 20;
+
+    printf("Wartość zmiennej: %d\n", zmienna);
+    printf("Wartość zmiennej przez wskaźnik: %d\n", *wskaznik);
 
     return 0;
-}// Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
-
-
-
-void funkcja(float *x) {
-    *x = 2 * x;
 }
