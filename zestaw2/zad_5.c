@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <cstring>
+#include <string.h>
+
 
 typedef struct {
     char imie[40];
