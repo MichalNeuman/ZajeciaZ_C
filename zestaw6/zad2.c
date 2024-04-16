@@ -7,7 +7,6 @@ int main() {
         tablica[i] = i;
     }
     
-    // Używanie wskaźnika do wyświetlenia każdego elementu tablicy z wykorzystaniem arytmetyki wskaźników
     int *wskaznik = tablica; // Inicjalizacja wskaźnika na pierwszy element tablicy
     for (int i = 0; i < 10; i++) {
         printf("Wartość elementu %d: %d\n", i, *wskaznik);
